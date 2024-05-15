@@ -1,16 +1,28 @@
 field,display_name,browse_link,external_link
 title,Title,
+subject,Subject,true
+identifier,Identifier,
 creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+creator,Player,
+creator,Performer,
+creator,Commentator,
 publisher,Publisher,
+contributor,Game manufacturer,
+contributor,Game distributor,
+contributor,Organizer,
+contributor,Sponsor,
+date,Created date,
+date,Played date,
+language,Language,
+type,Type,
+format,Format(Medium),
+format,Format(Extent),
+coverage,Spatial,
+game information,Game name,
+game information,Game Genre,
+game information,Game platform,
+game information,Game Character,
+rights,Rights,
+source,Source,
+description,Description,
+relation,Relation,
