@@ -17,4 +17,4 @@ format,Format,The digital file format of the resource. (OCA) ,dc:format,"Use for
 language,Language,,dcterms:language,"language used in the object, ISO 639-3",eng,no,Item
 rights,Rights,Information about the copyright of the resource. (OCA) ,dc:rights,Free text description of rights status,Public domain,no,Item
 rights-statement,Standardized rights,Information about the copyright of the resource. (OCA) ,dcterms:RightsStatement,A standardized statement URI from http://rightsstatements.org/en/,http://rightsstatements.org/vocab/NoC-US/1.0/,no,Item
-publisher,Publisher,An entity responsible for making the resource available. (OCA) ,dc:publisher,"Free text description of the publisher.",LCK,suggested,Item
+publisher,Publisher,An entity responsible for making the resource available. (OCA) ,dcterms:publisher,"Free text description of the publisher.",LCK,no,Item
