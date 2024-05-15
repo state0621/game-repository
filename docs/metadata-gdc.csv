@@ -1,0 +1,31 @@
+Field,display_name,Definition,dc-map,Notes,Example,Required,used-by
+objectid,,a unique string with no spaces or special characters that will be used as id in the website,na,must be unique in the project,ts104,yes,everything
+filename,,the name of the corresponding file in the project’s objects directory.,na,"Should have the extension (.jpg, .pdf, or .mp3), no spaces or special characters.",ts104.pdf,yes,Item
+youtubeid,,The YouTube ID of an item hosted on YouTube. This should be blank for all non-youtube items. It is used to access the YouTube API for images and video of the item.,na,"You can find the ID of a YouTube video by looking at the end of a Share link, e.g. in https://youtu.be/CVXQ3X6Q8oU the ID is the string after the slash. Make sure this field is empty (no spaces!) for non-youtube items!",CVXQ3X6Q8oU,yes (for youtube items only),everything
+title,Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,First item,yes,"Browse,Map,Timeline,Data,Item"
+subject,Subject,The topic of the resource. (OCA),dcterms:subject,"topics represented in the object, should use a controlled vocabulary. multiple subjects should be separated by a semi-colon",Forestry;Idaho,yes,"Subjects,Browse,Data"
+identifier,Identifier,An ambiguous reference to the resource within a given context. (OCA),dcterms:Identifier,"As an identifier for game-related materials, it has the URI's Encoding Scheme.",http://rightsstatements.org/vocab/NoC-US/1.0/,yes,Item
+creator,Creator,An entity primarily responsible for making the resource. (OCA),dcterms:creator,"creator of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",suggested,Item
+creator,Player,Players in game content.,na,"player of the game content. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",no,Item
+creator,Performer,"Performers of game-related content (performance, music, etc.)",na,"performer of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",no,Item
+creator,Commentator,a relay or commentator of game content.,na,"commentator of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",no,Item
+publisher,Publisher,An entity responsible for making the resource available. (OCA),dcterms:publisher,Free text description of the publisher.,LCK,no,Item
+contributor,Game manufacturer,The production company of the game covered by the content.,na,Free text description of the Game manufacturer.,Riot Games,no,Item
+contributor,Game distributor,Distributors of games covered by this content.,na,Free text description of the Game distributor.,Riot Games,no,Item
+contributor,Organizer,Matters related to the subjectivity of the game.,na,Free text description of the Organizer.,LCK,no,Item
+contributor,Sponsor,Matters related to sponsorship of game matchs.,na,Free text description of the Sponsor.,우리은행,no,Item
+date,Created date,A point or period of time associated with an event in the lifecycle of the resource. (OCA),dc:date,"date of creation of original object, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
+date,Played date,The date of the game's play,dc:date,"date of creation of original object, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
+language,Language,A language of the resource. (OCA),dcterms:language,"language used in the object, ISO 639-2",eng,no,Item
+type,Type,The nature or genre of the resource. (OCA),dcterm:type,"The general genre of object, using the DCMI type vocabulary.",Image;StillImage,yes,Item
+format,Format(Medium),The digital file format of the resource. (OCA),dc:format,"Use for the digital format of the resource, form as an Internet Media Type (IMT) term. For multiple formats, separate values with a semicolon.",image/jpeg; application/pdf,no,Item
+format,Format(Extent),The digital file format of the resource. (OCA),na,"Use for the digital format of the resource, form as an Internet Media Type (IMT) term. For multiple formats, separate values with a semicolon.",33x33 cm,no,Item
+coverage,Spatial,"The spatial topic of the resource, the spatial applicablity of the resource.",dcterms:spatial,"spatial characteristics of what the object is about, subject-like locations and geographical terms.","Sandpoint, Idaho; Lake Pend Oreille",no,"Map,Item"
+game information,Game name,The name of the game.,na,Free text description of the game name.,League Of Legends,no,"Browse,Data,Item"
+game information,Game Genre,The genre of the game.,na,Free text description of the game genre.,MOBA,no,Item
+game information,Game platform,A platform that offers the game.,na,"Free text description of the game platform. For multiple platforms, separate values with a semicolon.",Windows; Mac,no,Item
+game information,Game Character,Name of the game character that appeared in the content.,na,"Free text description of the game character. For multiple characters, separate values with colon.","Aatrox, Draven, Maokai, Pantheon, Poppy  etc.",no,Item
+rights,Rights,Information about the copyright of the resource. (OCA),dc:rights,Free text description of rights status,Public domain,no,Item
+source,Source,The resource from which the decribed resource is derived. (OCA),dc:source,A standardized statement URI from http://rightsstatements.org/en/,http://rightsstatements.org/vocab/NoC-US/1.0/,no,Item
+description,Description,An account of the resource. (OCA),dcterms:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the item’s history, physical appearance, contents, abstract, etc.",Black and white photograph of white pines in forest,suggested,"Browse,Data,Item"
+relation,Relation,A related resource. (OCA),na,"a collection or aggregation that the item is part of, generally a specific collection and the source archives where the materials were digitized from.",http://rightsstatements.org/vocab/NoC-US/1.0/,no,
