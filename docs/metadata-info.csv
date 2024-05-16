@@ -10,21 +10,21 @@ player,Creator(Player),Players in game content.,na,"Player of the game content. 
 performer,Creator(Performer),"Performers of game-related content. (performance, music, etc.)",na,"Performer of the object. In general, we provide several creators using colons.","Will, Evan",no,Item
 commentator,Creator(Commentator),A relay or commentator of game content.,na,"Commentator of the object. In general, we provide several creators using colons.","Will, Evan",no,Item
 publisher,Publisher,An entity responsible for making the game resource available.,dcterms:publisher,"Publisher of the object. In general, we provide several publishers using colons.",LCK,no,Item
-game manufacturer,Contributor(Game manufacturer),The production company of the game covered by the content.,na,Contributor of the object. Describes the game manufacturer.,Riot Games,no,Item
-game distributor,Contributor(Game distributor),Distributors of games covered by this content.,na,Contributor of the object. Describes the game distributor.,Riot Games,no,Item
-game organizer,Contributor(Game organizer),Matters related to the subjectivity of the game.,na,Contributor of the object. Describes the game organizer.,LCK,no,Item
-game sponsor,Contributor(Game sponsor),Matters related to sponsorship of game matchs.,na,Contributor of the object. Describes the game sponsor.,우리은행,no,Item
-created date,Created date,A point or period of time associated with an event in the lifecycle of the game resource.,dc:date,"Date of creation of original object, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
-played date,Played date,The date of the game's play.,dc:date,"Date the game of the content was played, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,no,"Browse,Timeline,Data,Item"
+game_manufacturer,Contributor(Game manufacturer),The production company of the game covered by the content.,na,Contributor of the object. Describes the game manufacturer.,Riot Games,no,Item
+game_distributor,Contributor(Game distributor),Distributors of games covered by this content.,na,Contributor of the object. Describes the game distributor.,Riot Games,no,Item
+game_organizer,Contributor(Game organizer),Matters related to the subjectivity of the game.,na,Contributor of the object. Describes the game organizer.,LCK,no,Item
+game_sponsor,Contributor(Game sponsor),Matters related to sponsorship of game matchs.,na,Contributor of the object. Describes the game sponsor.,우리은행,no,Item
+created_date,Created date,A point or period of time associated with an event in the lifecycle of the game resource.,dc:date,"Date of creation of original object, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
+played_date,Played date,The date of the game's play.,dc:date,"Date the game of the content was played, given in W3C-DTF format. In this simple project, please use only a single date.",1901-03-01,no,"Browse,Timeline,Data,Item"
 language,Language,A language of the game resource.,dcterms:language,"Language used in the object, ISO 639-2.",eng,yes,Item
 type,Type,The nature or genre of the game resource.,dcterm:type,"The general genre of object, using the DCMI type vocabulary.",Image;StillImage,yes,Item
 medium,Format(Medium),Medium in the digital file format of the resource.,dc:format,"Use for the digital format of the resource, form as an Internet Media Type (IMT) term. For multiple formats, separate values with a semicolon.",image/jpeg; application/pdf,no,Item
 extent,Format(Extent),Extent of a resource's digital file format.,na,"Use for the digital format of the resource, form as an Internet Media Type (IMT) term. For multiple formats, separate values with a semicolon.",33x33 cm,no,Item
 spatial,Coverage(Spatial),"The spatial topic of the resource, the spatial applicablity of the resource.",dcterms:spatial,"Spatial characteristics of what the object is about, subject-like locations and geographical terms. Using the ISO 3166-1.","Sandpoint, Idaho; Lake Pend Oreille",no,"Map,Item"
-game name,Game name,The name of the game.,na,Free text description of the game name.,League Of Legends,yes,"Browse,Data,Item"
-game genre,Game genre,The genre of the game.,na,Free text description of the game genre.,MOBA,no,Item
-game platform,Game platform,A platform that offers the game.,na,"Free text description of the game platform. For multiple platforms, separate values with a colon.","Windows, Mac",no,Item
-game character,Game character,Name of the game character that appeared in the content.,na,"Free text description of the game character. For multiple characters, separate values with a colon. You can write up to five things.","Aatrox, Draven, Maokai, Pantheon, Poppy  etc.",no,Item
+game_name,Game name,The name of the game.,na,Free text description of the game name.,League Of Legends,yes,"Browse,Data,Item"
+game_genre,Game genre,The genre of the game.,na,Free text description of the game genre.,MOBA,no,Item
+game_platform,Game platform,A platform that offers the game.,na,"Free text description of the game platform. For multiple platforms, separate values with a colon.","Windows, Mac",no,Item
+game_character,Game character,Name of the game character that appeared in the content.,na,"Free text description of the game character. For multiple characters, separate values with a colon. You can write up to five things.","Aatrox, Draven, Maokai, Pantheon, Poppy  etc.",no,Item
 rights,Rights,Information about the copyright of the game resource.,dc:rights,Free text description of rights status.,Public domain,no,Item
 source,Source,The game resource from which the decribed resource is derived.,dc:source,A standardized statement URI from http://rightsstatements.org/en/,http://rightsstatements.org/vocab/NoC-US/1.0/,no,Item
 description,Description,An account of the game resource.,dcterms:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the item’s history, physical appearance, contents, abstract, etc.",Black and white photograph of white pines in forest,suggested,"Browse,Data,Item"
