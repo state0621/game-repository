@@ -1,7 +1,7 @@
-field,display_name,browse_link,external_link
+field,display_name,browse_link,external_link,hidden
 title,Title,
 subject,Subject,true
-identifier,Identifier,
+identifier,Identifier,,,true
 creator,Creator,
 player,Player,
 commentator,Commentator,
@@ -15,6 +15,6 @@ coverage,Coverage,
 name,Game name,
 genre,Game genre,
 rights,Rights,
-source,Source,
+source,Source,,true
 description,Description,
 relation,Relation,
