@@ -11,6 +11,6 @@ format,Format,
 coverage,Coverage,
 game,Game information,
 rights,Rights,
-source,Source,
+source,Source,,true
 description,Description,
-relation,Relation,
+relation,Relation,,true
