@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link
 title,Title,
 subject,Subject,true
-identifier,Identifier,
+identifier,,
 creator,Creator,
 player,Player,
 commentator,Commentator,
