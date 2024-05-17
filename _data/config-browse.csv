@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name
 creator,Creator,,,
+subject,Subject,true
 game_name,,true
-subject,,true
 location,,true
