@@ -11,8 +11,8 @@ type,Type,
 medium,Format(medium),
 extent,Format(extent),
 coverage,Coverage,
-gi_name,Game name
-gi_genre,Game genre
+gi_name,Game name,
+gi_genre,Game genre,
 rights,Rights,
 source,Source,
 description,Description,
