@@ -1,19 +1,18 @@
 field,display_name,browse_link,external_link
 title,Title,
 subject,Subject,true
-creator,Creator,
-publisher,Publisher,
-contributor,Contributor,
 date,Date,
+creator,Creator,
+contributor,Contributor,
+game_name,Game Name,
+game_genre,Game Genre,
+game_info,Game Information,
+description,Description,
 language,Language,
 type,Type,
 format,Format(Medium),
 extent,Format(Extent),
-coverage,Coverage,
-game_name,Game Name,
-game_genre,Game Genre,
-game_info,Game Information,
+coverage,Spatial,
 rights,Rights,
 source,Source,,true
-description,Description,
 relation,Relation,,true
