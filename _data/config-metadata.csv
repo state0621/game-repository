@@ -2,10 +2,10 @@ field,display_name,browse_link,external_link
 title,Title,
 subject,Subject,true
 date,Date,
-creator,Creator,
+creator,Creator,true
 contributor,Contributor,
-game_name,Game Name,
-game_genre,Game Genre,
+game_name,Game Name,true
+game_genre,Game Genre,true
 game_info,Game Information,
 description,Description,
 language,Language,
