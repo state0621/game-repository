@@ -2,4 +2,4 @@ field,display_name,btn,hidden,sort_name
 creator,Creator,,,
 subject,Subject,
 game_name,,true
-location,,true
+game_genre,,true
