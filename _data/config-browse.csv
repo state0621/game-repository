@@ -1,5 +1,6 @@
 field,display_name,btn,hidden,sort_name
 creator,Creator,
 subject,Subject,
+type,Type,
 game_name,,true
 game_genre,,true
