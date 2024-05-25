@@ -9,7 +9,7 @@ game_genre,Game Genre,true
 game_info,Game Information,
 description,Description,
 language,Language,
-type,Type,
+type,Type,true
 format,Format(Medium),
 extent,Format(Extent),
 coverage,Spatial,
